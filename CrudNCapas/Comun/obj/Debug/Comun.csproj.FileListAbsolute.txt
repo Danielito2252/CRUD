@@ -1,0 +1,6 @@
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Comun\bin\Debug\Comun.dll
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Comun\bin\Debug\Comun.pdb
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Comun\obj\Debug\Comun.csproj.AssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Comun\obj\Debug\Comun.dll
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Comun\obj\Debug\Comun.pdb

@@ -1,0 +1,11 @@
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\bin\Debug\Dominio.dll
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\bin\Debug\AccesoDatos.dll
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\bin\Debug\Comun.dll
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\bin\Debug\AccesoDatos.pdb
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\bin\Debug\Comun.pdb
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\obj\Debug\Dominio.csproj.Up2Date
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\obj\Debug\Dominio.dll
+C:\Users\Daniel\Documents\Visual Studio 2022\Proyectos\CRUD Analisis de Sistemas II\CrudNCapas\Dominio\obj\Debug\Dominio.pdb
