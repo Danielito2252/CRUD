@@ -22,7 +22,7 @@ namespace Presentacion
         //variables
         CPersonas personas = new CPersonas();
         AtributosPersonas atributos = new AtributosPersonas();
-        bool edit = false; 
+        bool edit = false;
 
         private void btnMin_Click(object sender, EventArgs e)
         {
@@ -102,7 +102,7 @@ namespace Presentacion
             {    //Insertar
                 try
                 {
-                    
+
                     atributos.Id = Convert.ToInt32(txtID.Text);
                     atributos.Nombre = txtNombre.Text;
                     atributos.Apellido = txtApellido.Text;
@@ -112,19 +112,102 @@ namespace Presentacion
                     getData();
                     btnGuardar.Enabled = false;
                     btnNuevo.Enabled = true;
-                    MessageBox.Show("SE GUARDO UN DATO DE FORMA CORRECTA","INSERTADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("SE GUARDO UN REGISTRO DE FORMA CORRECTA", "INSERTADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
-                    MessageBox.Show( $"SE PRODUJO EL SIGUIENTE ERROR: {ex.ToString()}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"SE PRODUJO EL SIGUIENTE ERROR: {ex.ToString()}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            
-            }else if (edit == true)
-            {
-                //ACTUALIZAR
 
             }
-            
+            else if (edit == true)
+            {
+                //ACTUALIZAR
+                try
+                {
+                    atributos.Id = Convert.ToInt32(txtID.Text);
+                    atributos.Nombre = txtNombre.Text;
+                    atributos.Apellido = txtApellido.Text;
+                    atributos.Sexo = cbSexo.Text;
+                    personas.Modificar(atributos);
+                    ClearTextBoxs();
+                    getData();
+                    btnGuardar.Enabled = false;
+                    btnNuevo.Enabled = true;
+                    txtID.Enabled = true;
+                    edit = false;
+                    MessageBox.Show("SE ACTUALIZO UN REGISTRO DE FORMA CORRECTA", "MODIFICADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"SE PRODUJO EL SIGUIENTE ERROR: {ex.ToString()}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
+
+        }
+
+        private void BtnModificar_Click(object sender, EventArgs e)
+        {
+            if (DvgDatos.SelectedRows.Count > 0)
+            {
+                txtID.Enabled = false;
+                btnNuevo.Enabled = false;
+                btnGuardar.Enabled = true;
+                edit = true;
+                //CARGAR DATOS
+                txtID.Text = DvgDatos.CurrentRow.Cells[0].Value.ToString();
+                txtNombre.Text = DvgDatos.CurrentRow.Cells[1].Value.ToString();
+                txtApellido.Text = DvgDatos.CurrentRow.Cells[2].Value.ToString();
+                cbSexo.Text = DvgDatos.CurrentRow.Cells[3].Value.ToString();
+            }
+        }
+
+        private void txtBuscar_Enter(object sender, EventArgs e)
+        {
+            if (txtBuscar.Text == "Buscar...") txtBuscar.Text = "";
+        }
+
+        private void txtBuscar_Leave(object sender, EventArgs e)
+        {
+            if (txtBuscar.Text == "")
+            {
+                txtBuscar.Text = "Buscar...";
+                getData();
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (DvgDatos.SelectedRows.Count > 0)
+            {
+                DialogResult dialog = new DialogResult();
+                dialog = MessageBox.Show("¿DESEAS ELIMINAR ESTE REGISTRO?", "ELLIMINAR", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (dialog == DialogResult.Yes)
+                {
+                    try
+                    {
+                        atributos.Id = Convert.ToInt32(DvgDatos.CurrentRow.Cells [0].Value.ToString());
+                        personas.Eliminar(atributos);
+                        getData();
+                        MessageBox.Show("REGISTRO ELIMINADO CORRECTAMENTE", "ELIMINADO", MessageBoxButtons.OK, MessageBoxIcon.Information); 
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"SE PRODUJO EL SIGUIENTE ERROR: {ex.ToString()}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                }
+
+            }
+        }
+
+        private void txtBuscar_TextChanged(object sender, EventArgs e)
+        {
+            CPersonas cPersonas = new CPersonas();  
+            DvgDatos.DataSource = cPersonas.Buscar(txtBuscar.Text);
         }
     }
 }
+

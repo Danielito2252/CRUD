@@ -34,10 +34,34 @@ namespace AccesoDatos.Entidades
             }
             finally
             {
-                cmd.Connection = c.CloseConnection();   
+                cmd.Connection = c.CloseConnection();
             }
             return td;
         }
+
+        public DataTable Buscar(string Buscar)
+        {
+            try
+            {
+                cmd.Connection = c.OpenConnection();
+                cmd.CommandText = "SP_Buscar";
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Buscar", Buscar);      
+                dr = cmd.ExecuteReader();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                td.Load(dr);
+            }
+            catch (Exception ex)
+            {
+                string msj = ex.ToString();
+            }
+            finally
+            {
+                cmd.Connection = c.CloseConnection();
+            }
+            return td;
+        }
+
         public void Insertar(AtributosPersonas obj)
         {
             try
@@ -51,6 +75,52 @@ namespace AccesoDatos.Entidades
                 cmd.Parameters.AddWithValue("@Sexo", obj.Sexo);
                 cmd.ExecuteNonQuery();
                 cmd.Parameters.Clear();
+            }
+            catch (Exception ex)
+            {
+                string msj = ex.ToString();
+            }
+            finally
+            {
+                cmd.Connection = c.CloseConnection();
+            }
+        }
+
+        public void Modificar(AtributosPersonas obj)
+        {
+            try
+            {
+                cmd.Connection = c.OpenConnection();
+                cmd.CommandText = "SP_Modificar";
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", obj.Id);
+                cmd.Parameters.AddWithValue("@Nombre", obj.Nombre);
+                cmd.Parameters.AddWithValue("@Apellido", obj.Apellido);
+                cmd.Parameters.AddWithValue("@Sexo", obj.Sexo);
+                cmd.ExecuteNonQuery();
+                cmd.Parameters.Clear();
+            }
+            catch (Exception ex)
+            {
+                string msj = ex.ToString();
+            }
+            finally
+            {
+                cmd.Connection = c.CloseConnection();
+            }
+        }
+
+        public void Eliminar(AtributosPersonas obj)
+        {
+            try
+            {
+                cmd.Connection = c.OpenConnection();
+                cmd.CommandText = "SP_eliminar";
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@ID", obj.Id);
+                cmd.ExecuteReader();
+                cmd.Parameters.Clear();
+
             }
             catch (Exception ex)
             {

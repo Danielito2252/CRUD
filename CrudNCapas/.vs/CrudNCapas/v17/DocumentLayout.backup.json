@@ -7,24 +7,20 @@
       "RelativeMoniker": "D:0:0:{43ECA7B3-655E-4A3C-8E5D-48B39498BCA5}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9D213DA-3F30-42EE-B79C-2C7C60969468}|Comun\\Comun.csproj|c:\\users\\daniel\\documents\\visual studio 2022\\proyectos\\crud analisis de sistemas ii\\crudncapas\\comun\\atributos\\atributospersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9D213DA-3F30-42EE-B79C-2C7C60969468}|Comun\\Comun.csproj|solutionrelative:comun\\atributos\\atributospersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2B61701-37AC-4253-965E-433DD1DC0541}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\daniel\\documents\\visual studio 2022\\proyectos\\crud analisis de sistemas ii\\crudncapas\\accesodatos\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B61701-37AC-4253-965E-433DD1DC0541}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4834E3A5-FF1D-4CB6-A61F-3F5AE08D78FB}|Dominio\\Dominio.csproj|c:\\users\\daniel\\documents\\visual studio 2022\\proyectos\\crud analisis de sistemas ii\\crudncapas\\dominio\\crud\\cpersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4834E3A5-FF1D-4CB6-A61F-3F5AE08D78FB}|Dominio\\Dominio.csproj|solutionrelative:dominio\\crud\\cpersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43ECA7B3-655E-4A3C-8E5D-48B39498BCA5}|Presentacion\\Presentacion.csproj|c:\\users\\daniel\\documents\\visual studio 2022\\proyectos\\crud analisis de sistemas ii\\crudncapas\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{43ECA7B3-655E-4A3C-8E5D-48B39498BCA5}|Presentacion\\Presentacion.csproj|C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{43ECA7B3-655E-4A3C-8E5D-48B39498BCA5}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B61701-37AC-4253-965E-433DD1DC0541}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\daniel\\documents\\visual studio 2022\\proyectos\\crud analisis de sistemas ii\\crudncapas\\accesodatos\\conexion\\conexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B61701-37AC-4253-965E-433DD1DC0541}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\conexion\\conexion_bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2B61701-37AC-4253-965E-433DD1DC0541}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\accesodatos\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2B61701-37AC-4253-965E-433DD1DC0541}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9D213DA-3F30-42EE-B79C-2C7C60969468}|Comun\\Comun.csproj|C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\comun\\atributos\\atributospersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9D213DA-3F30-42EE-B79C-2C7C60969468}|Comun\\Comun.csproj|solutionrelative:comun\\atributos\\atributospersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4834E3A5-FF1D-4CB6-A61F-3F5AE08D78FB}|Dominio\\Dominio.csproj|C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\dominio\\crud\\cpersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4834E3A5-FF1D-4CB6-A61F-3F5AE08D78FB}|Dominio\\Dominio.csproj|solutionrelative:dominio\\crud\\cpersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\Presentacion\\Form1.cs",
+              "RelativeToolTip": "Presentacion\\Form1.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAowNMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T04:38:34.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AtributosPersonas.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\Comun\\Atributos\\AtributosPersonas.cs",
               "RelativeDocumentMoniker": "Comun\\Atributos\\AtributosPersonas.cs",
@@ -59,20 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\Presentacion\\Form1.cs",
-              "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\Presentacion\\Form1.cs",
-              "RelativeToolTip": "Presentacion\\Form1.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAowHEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T04:38:34.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\Presentacion\\Form1.cs",
               "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
@@ -84,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CPersonas.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\Dominio\\Crud\\CPersonas.cs",
               "RelativeDocumentMoniker": "Dominio\\Crud\\CPersonas.cs",
               "ToolTip": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\Dominio\\Crud\\CPersonas.cs",
               "RelativeToolTip": "Dominio\\Crud\\CPersonas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T04:33:31.974Z",
               "EditorCaption": ""
@@ -103,22 +99,9 @@
               "RelativeDocumentMoniker": "AccesoDatos\\Entidades\\Persona.cs",
               "ToolTip": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\AccesoDatos\\Entidades\\Persona.cs",
               "RelativeToolTip": "AccesoDatos\\Entidades\\Persona.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAgwCkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T04:10:48.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Conexion_BD.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\AccesoDatos\\Conexion\\Conexion_BD.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Conexion\\Conexion_BD.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\Visual Studio 2022\\Proyectos\\CRUD Analisis de Sistemas II\\CrudNCapas\\AccesoDatos\\Conexion\\Conexion_BD.cs",
-              "RelativeToolTip": "AccesoDatos\\Conexion\\Conexion_BD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T03:41:32.478Z",
               "EditorCaption": ""
             }
           ]
